@@ -8,6 +8,7 @@ in the source distribution for its full text.
 
 #include "MainPanel.h"
 
+#include <curses.h>       // for ERR, KEY_MAX, KEY_F, KEY_RESIZE
 #include <ctype.h>
 #include <stdlib.h>
 
@@ -16,7 +17,6 @@ in the source distribution for its full text.
 #include "Platform.h"
 #include "Process.h"
 #include "ProcessList.h"
-#include "ProvideCurses.h"
 #include "Settings.h"
 #include "XUtils.h"
 

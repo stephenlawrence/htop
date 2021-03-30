@@ -1,6 +1,8 @@
 #ifndef HEADER_NetworkIOMeter
 #define HEADER_NetworkIOMeter
 
+#include <stdint.h>  // for uint64_t
+
 #include "Meter.h"
 
 typedef struct NetworkIOData_ {

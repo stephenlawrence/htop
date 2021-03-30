@@ -8,6 +8,7 @@
 #include "Macros.h"
 #include "Object.h"
 #include "Platform.h"
+#include "Process.h"     // for ONE_K
 #include "RichString.h"
 #include "XUtils.h"
 

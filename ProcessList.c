@@ -10,6 +10,7 @@ in the source distribution for its full text.
 #include <assert.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>       // for timespec
 
 #include "Compat.h"
 #include "CRT.h"

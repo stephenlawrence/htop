@@ -7,9 +7,9 @@ Released under the GNU GPLv2, see the COPYING file
 in the source distribution for its full text.
 */
 
-#include "config.h"
+#include <curses.h>  // for cchar_t, mvadd_wchnstr, mvadd_wchstr
 
-#include "ProvideCurses.h"
+#include "config.h"
 
 
 #define RichString_size(this) ((this)->chlen)

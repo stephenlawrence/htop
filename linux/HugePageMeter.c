@@ -6,15 +6,18 @@ in the source distribution for its full text.
 */
 
 #include "HugePageMeter.h"
-
+#include <assert.h>            // for assert
+#include <stddef.h>            // for NULL, size_t
+#include "Macros.h"            // for ARRAYSIZE
+#include "ProcessList.h"       // for memory_t, MEMORY_MAX
 #include "LinuxProcessList.h"
 
-#include <limits.h>
 #include <math.h>
 
 #include "CRT.h"
 #include "Object.h"
 #include "RichString.h"
+#include <limits.h>
 
 static const char *HugePageMeter_active_labels[4] = { NULL, NULL, NULL, NULL };
 

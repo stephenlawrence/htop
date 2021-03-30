@@ -11,6 +11,8 @@ in the source distribution for its full text.
 #include "Process.h"
 
 #include <assert.h>
+#include <bits/types/struct_tm.h>  // for tm
+#include <string.h>                // for strlen
 #include <limits.h>
 #include <math.h>
 #include <signal.h>

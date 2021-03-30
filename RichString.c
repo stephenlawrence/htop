@@ -13,7 +13,7 @@ in the source distribution for its full text.
 
 #include "Macros.h"
 #include "XUtils.h"
-
+#include "ProvideCurses.h"  // for iswprint, btowc, wcwidth
 
 #define charBytes(n) (sizeof(CharType) * (n))
 

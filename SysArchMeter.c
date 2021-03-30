@@ -8,6 +8,9 @@ in the source distribution for its full text.
 
 #include "Platform.h"
 #include "SysArchMeter.h"
+#include <stddef.h>    // for NULL
+#include "CRT.h"       // for HOSTNAME
+#include "Object.h"    // for Class
 
 #include "XUtils.h"
 

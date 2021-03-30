@@ -9,10 +9,13 @@ in the source distribution for its full text.
 
 #include "config.h" // IWYU pragma: keep
 
-#include <fcntl.h>
-#include <stddef.h>
-#include <unistd.h>
-#include <sys/stat.h> // IWYU pragma: keep
+#include <fcntl.h>   // for openat
+#include <stddef.h>  // for size_t
+#include <sys/stat.h>
+#include <unistd.h>  // for close, ssize_t
+#include "config.h"  // for HAVE_OPENAT
+struct stat;
+struct timespec;
 
 
 int Compat_faccessat(int dirfd,

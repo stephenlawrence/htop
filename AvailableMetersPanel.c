@@ -8,6 +8,7 @@ in the source distribution for its full text.
 #include "AvailableMetersPanel.h"
 
 #include <assert.h>
+#include <curses.h>       // for KEY_F, KEY_ENTER, KEY_LEFT
 #include <stdbool.h>
 #include <stdlib.h>
 
@@ -19,7 +20,6 @@ in the source distribution for its full text.
 #include "MetersPanel.h"
 #include "Object.h"
 #include "Platform.h"
-#include "ProvideCurses.h"
 #include "XUtils.h"
 
 

@@ -9,10 +9,10 @@ in the source distribution for its full text.
 
 #include "config.h"
 
+#include <curses.h>    // for KEY_F
 #include <stdbool.h>
 
 #include "Macros.h"
-#include "ProvideCurses.h"
 #include "Settings.h"
 
 

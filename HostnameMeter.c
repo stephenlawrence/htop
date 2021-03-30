@@ -6,12 +6,8 @@ in the source distribution for its full text.
 */
 
 #include "config.h" // IWYU pragma: keep
-
 #include "HostnameMeter.h"
 #include "Platform.h"
-
-#include <unistd.h>
-
 #include "CRT.h"
 #include "Object.h"
 

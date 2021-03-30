@@ -9,6 +9,7 @@ in the source distribution for its full text.
 
 #include "Compat.h"
 
+#include <bits/struct_stat.h>  // for stat
 #include <errno.h>
 #include <fcntl.h> // IWYU pragma: keep
 #include <time.h>
@@ -17,6 +18,8 @@ in the source distribution for its full text.
 #include <sys/types.h> // IWYU pragma: keep
 
 #include "XUtils.h" // IWYU pragma: keep
+
+struct timespec;
 
 #ifdef HAVE_HOST_GET_CLOCK_SERVICE
 #include <mach/clock.h>

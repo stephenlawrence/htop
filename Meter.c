@@ -9,6 +9,7 @@ in the source distribution for its full text.
 
 #include "Meter.h"
 
+#include <curses.h>      // for attrset, mvaddnstr, mvaddstr, mvaddch, cchar_t
 #include <assert.h>
 #include <math.h>
 #include <stdlib.h>
@@ -18,7 +19,6 @@ in the source distribution for its full text.
 #include "CRT.h"
 #include "Macros.h"
 #include "Object.h"
-#include "ProvideCurses.h"
 #include "RichString.h"
 #include "Settings.h"
 #include "XUtils.h"

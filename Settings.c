@@ -7,6 +7,7 @@ in the source distribution for its full text.
 
 #include "Settings.h"
 
+#include <bits/struct_stat.h>  // for stat
 #include <errno.h>
 #include <stdio.h>
 #include <stdlib.h>

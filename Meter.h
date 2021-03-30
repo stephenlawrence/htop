@@ -10,6 +10,7 @@ in the source distribution for its full text.
 #include "config.h" // IWYU pragma: keep
 
 #include <stdbool.h>
+#include <stddef.h>       // for size_t
 #include <stdint.h>
 #include <sys/time.h>
 

@@ -7,6 +7,8 @@ Released under the GNU GPLv2, see the COPYING file
 in the source distribution for its full text.
 */
 
+#include <stdint.h>  // for uint64_t
+
 #include "Meter.h"
 
 typedef struct DiskIOData_ {

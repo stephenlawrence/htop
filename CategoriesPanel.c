@@ -8,6 +8,7 @@ in the source distribution for its full text.
 #include "CategoriesPanel.h"
 
 #include <ctype.h>
+#include <curses.h>                 // for KEY_DOWN, KEY_END, KEY_HOME, KEY_...
 #include <stdbool.h>
 #include <stdlib.h>
 
@@ -20,7 +21,6 @@ in the source distribution for its full text.
 #include "ListItem.h"
 #include "MetersPanel.h"
 #include "Object.h"
-#include "ProvideCurses.h"
 #include "Vector.h"
 
 

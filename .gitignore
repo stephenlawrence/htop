@@ -45,3 +45,6 @@ stamp-h1
 
 # files related to valgrind/callgrind
 callgrind.out.*
+
+# IDE related files
+.idea

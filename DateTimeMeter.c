@@ -9,6 +9,7 @@ in the source distribution for its full text.
 
 #include "DateTimeMeter.h"
 
+#include <bits/types/struct_tm.h>  // for tm
 #include <time.h>
 
 #include "CRT.h"

@@ -7,6 +7,9 @@ in the source distribution for its full text.
 
 #include "SwapMeter.h"
 
+#include <stddef.h>      // for size_t
+#include "config.h"      // for HTOP_LINUX
+
 #include "CRT.h"
 #include "Object.h"
 #include "Platform.h"

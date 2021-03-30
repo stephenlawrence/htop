@@ -8,7 +8,7 @@ in the source distribution for its full text.
 #include "config.h" // IWYU pragma: keep
 
 #include "Action.h"
-
+#include <curses.h>              // for mvaddstr, addstr, attrset, KEY_F, beep
 #include <pwd.h>
 #include <stdbool.h>
 #include <stdlib.h>
@@ -27,7 +27,6 @@ in the source distribution for its full text.
 #include "OpenFilesScreen.h"
 #include "Process.h"
 #include "ProcessLocksScreen.h"
-#include "ProvideCurses.h"
 #include "ScreenManager.h"
 #include "SignalsPanel.h"
 #include "TraceScreen.h"

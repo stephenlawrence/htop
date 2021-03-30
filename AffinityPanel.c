@@ -10,6 +10,7 @@ in the source distribution for its full text.
 #include "AffinityPanel.h"
 
 #include <assert.h>
+#include <curses.h>       // for KEY_F, KEY_ENTER, KEY_MOUSE
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
@@ -17,7 +18,6 @@ in the source distribution for its full text.
 #include "CRT.h"
 #include "FunctionBar.h"
 #include "Object.h"
-#include "ProvideCurses.h"
 #include "RichString.h"
 #include "Settings.h"
 #include "Vector.h"

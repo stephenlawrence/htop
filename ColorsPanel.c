@@ -6,18 +6,15 @@ in the source distribution for its full text.
 */
 
 #include "ColorsPanel.h"
-
+#include <assert.h>       // for assert
+#include <curses.h>       // for KEY_ENTER, KEY_MOUSE, clear
+#include "Macros.h"       // for ARRAYSIZE
 #include <stdbool.h>
 #include <stdlib.h>
-
 #include "CRT.h"
 #include "FunctionBar.h"
-#include "Header.h"
 #include "Object.h"
 #include "OptionItem.h"
-#include "ProvideCurses.h"
-#include "RichString.h"
-#include "Vector.h"
 
 
 // TO ADD A NEW SCHEME:

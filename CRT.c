@@ -5,10 +5,12 @@ Released under the GNU GPLv2, see the COPYING file
 in the source distribution for its full text.
 */
 
-#include "config.h" // IWYU pragma: keep
+#include "config.h"           // IWYU pragma: keep
 
 #include "CRT.h"
 
+#include <sys/mman.h>         // for memfd_create
+#include <fcntl.h>            // for SEEK_SET
 #include <errno.h>
 #include <langinfo.h>
 #include <signal.h>

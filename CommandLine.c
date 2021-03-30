@@ -11,6 +11,8 @@ in the source distribution for its full text.
 #include "CommandLine.h"
 
 #include <assert.h>
+#include <bits/getopt_core.h>  // for optarg, optind
+#include <curses.h>            // for COLS, LINES, attroff, attron, mvhline=
 #include <getopt.h>
 #include <locale.h>
 #include <stdbool.h>
@@ -31,7 +33,6 @@ in the source distribution for its full text.
 #include "Platform.h"
 #include "Process.h"
 #include "ProcessList.h"
-#include "ProvideCurses.h"
 #include "ScreenManager.h"
 #include "Settings.h"
 #include "UsersTable.h"

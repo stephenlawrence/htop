@@ -8,6 +8,7 @@ in the source distribution for its full text.
 #include "ColumnsPanel.h"
 
 #include <ctype.h>
+#include <curses.h>       // for KEY_F, KEY_DC, KEY_DOWN, KEY_ENTER, KEY_MOUSE
 #include <stdlib.h>
 
 #include "CRT.h"
@@ -15,7 +16,6 @@ in the source distribution for its full text.
 #include "ListItem.h"
 #include "Object.h"
 #include "Process.h"
-#include "ProvideCurses.h"
 #include "XUtils.h"
 
 

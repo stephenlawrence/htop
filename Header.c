@@ -7,6 +7,7 @@ in the source distribution for its full text.
 
 #include "Header.h"
 
+#include <curses.h>    // for COLS, attrset, mvhline
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -16,7 +17,6 @@ in the source distribution for its full text.
 #include "Macros.h"
 #include "Object.h"
 #include "Platform.h"
-#include "ProvideCurses.h"
 #include "XUtils.h"
 
 

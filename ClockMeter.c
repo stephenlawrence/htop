@@ -6,11 +6,9 @@ in the source distribution for its full text.
 */
 
 #include "config.h" // IWYU pragma: keep
-
 #include "ClockMeter.h"
-
+#include <bits/types/struct_tm.h>  // for tm
 #include <time.h>
-
 #include "CRT.h"
 #include "Object.h"
 

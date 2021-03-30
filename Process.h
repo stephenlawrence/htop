@@ -9,6 +9,7 @@ in the source distribution for its full text.
 */
 
 #include <stdbool.h>
+#include <stddef.h>        // for size_t
 #include <stdint.h>
 #include <sys/types.h>
 
